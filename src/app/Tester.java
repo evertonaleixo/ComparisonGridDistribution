@@ -16,10 +16,15 @@ public class Tester {
         Grid g1 = (Grid) base.copy();
         Grid g2 = (Grid) base.copy();
         
+        // Execute Greedy algorithm
         new GreedyDistribution(g1);
-        
         System.out.println("\n\n");
+        
+        // Execute Random algorithm
         new RandonDistribution(g2);
+        System.out.println("\n\n");
+        
+        // Execute Genetic algorithm
     }
     
     public static void main(String[] args) {
